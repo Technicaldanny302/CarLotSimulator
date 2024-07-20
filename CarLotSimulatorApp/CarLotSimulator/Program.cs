@@ -24,6 +24,7 @@ namespace CarLotSimulator
 
             //(.) dot notation
             var michealsCar = new Car();
+
             michealsCar.make = "ford";
             michealsCar.model = "focus";
             michealsCar.year = 2013;
@@ -67,6 +68,8 @@ namespace CarLotSimulator
             //It should have at least one property: a List of cars
             //Instanciate the a Carlot at the beginning of the program and as you create a car add the car to the list.
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
+
+            Console.WriteLine($" Number of cars created: {carLot.numberOfCars}");
 
             foreach (var car in lot.Cars)
             {
