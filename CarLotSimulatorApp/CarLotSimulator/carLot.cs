@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CarLotSimulator
 {
-    public class carLot
+    public class CarLot
     {
-        public carLot()
+        public CarLot()
         {
 
         }
